@@ -4,7 +4,7 @@
 REMOTE_USER="daksh"
 REMOTE_HOST="127.0.0.1"
 REMOTE_KEY="~/.ssh/id_rsa"
-REMOTE_DIR="/mnt/d/Linux/Shell-Scripts/"
+REMOTE_DIR="/d/Linux/Shell-Scripts/"
 
 # Create the commands to be executed on the remote server
 REMOTE_COMMANDS=$(cat << EOF
