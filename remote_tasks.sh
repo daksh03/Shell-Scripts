@@ -15,7 +15,7 @@ EOF
 )
 
 # Connect to the remote server and execute the commands
-ssh -i "$REMOTE_KEY" "$REMOTE_USER@$REMOTE_HOST" "$REMOTE_COMMANDS"
+ssh "$REMOTE_KEY" "$REMOTE_USER@$REMOTE_HOST" "$REMOTE_COMMANDS"
 
 echo "Tasks completed successfully."
 
